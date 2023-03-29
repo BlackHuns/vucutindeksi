@@ -1,0 +1,2 @@
+# vucutindeksi
+www.patika.dev
