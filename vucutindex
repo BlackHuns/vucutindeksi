@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Vucutindeksi {
+    public static void main (String[] args){
+        System.out.println("Ben boy ve kilo değerlerine göre vucüt indeksi hesaplayabilirim.");
+        Scanner tara = new Scanner(System.in);
+        System.out.printf("Boy uzunluğunu m cinsinden virgül kullanarak giriniz: ");
+        double boy = tara.nextFloat();
+        System.out.printf("Kile değerini kg cinsinden virgül kullanarak giriniz: ");
+        double kilo = tara.nextFloat();
+        double index = boy / (kilo * kilo);
+        System.out.println("Vucüt kitle endeksiniz: " + index + " dir.");
+
+
+    }
+}
